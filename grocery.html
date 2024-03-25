@@ -1,14 +1,3 @@
-<!--Using major Semantic Tags-->
-<!--Create four grocery sections/categories-->
-<!--Add color to sections-->
-<!--Colorize header with different color-->
-<!--Use three types of headings-->
-<!--Include two types of lists...ul and ol-->
-<!--Use HTML Box model to add borders and spacing-->
-<!--Add two photos spaced away from text element-->
-<!--Utilize all three types of CSS-->
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,13 +6,13 @@
     <link rel="stylesheet" type="text/css" href="gstyle.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>A "Basic" Shopping List</h1>
     </header>
 
     <body>
         <section>
-            <span class="section-title">Drinks</span>
+            <h2 class="header2">Drinks</h2>
             <div class="container">
                 <div class="box">
                     <h3>Morning</h3>
@@ -33,6 +22,7 @@
                         <li>Peach Tea</li>
                     </ul>
                 </div>
+                <img src="./media/CarteNoir.jpg" alt="bag of coffee" class="center-image">
                 <div class="box">
                     <h3>Rest of the Day</h3>
                     <ul>
@@ -43,20 +33,27 @@
                 </div>
             </div>
         </section>
-    <section>
-        <h2>Everyday Staples</h2>
-        <h3>Shelf Stable</h3>
-        <ol>
-            <li>Daves Killer Bread</li>
-            <li>Chik Fil A Sauce</li>
-            <li>Pasta</li>
-        </ol> 
-        <h3>Perishables</h3>
-        <ol>
-            <li>Milk</li>
-            <li>Eggs</li>
-            <li>Bougie Dog Food</li>
-        </ol>     
-    </section>
+        <h2 class="header2">Staples</h2>
+            <div class="container">
+                <div class="box">
+                    <h3>Shelf Stable</h3>
+                    <ol>
+                        <li>Daves Killer Bread</li>
+                        <li>Chik Fil A Sauce</li>
+                        <li>Pasta</li>
+                    </ol> 
+                </div>
+                <img src="./media/grocerybag.jpeg" alt="Drawing of a bag of groceries" class="center-image">
+                <div class="box">
+                    <h3>Perishables</h3>
+                    <ol>
+                        <li>Milk</li>
+                        <li>Eggs</li>
+                        <li>Bougie Dog Food</li>
+                    </ol> 
+                </div>
+            </div>
+        </section>
+    </section> 
 </body>
 </html>
